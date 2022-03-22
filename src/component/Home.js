@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from "../photos/house.png";
 import contract from "../photos/contract.png";
-import inspector from "../photos/inspector.jpg";
+import inspection from "../photos/inspection.png";
 import contact from "../photos/contact.webp"
 import "../style/home.css";
 
@@ -26,7 +26,7 @@ export default function Home() {
                   <img src={contact} class="card-img-top h-20" alt="contact-logo" />
                </div>
                <div>
-                 <p>Users</p>
+               <div class="d-flex justify-content-center">contract Owner</div>
                </div>
                <div className='item-btn'>
                  <button className='card-btn'>Continue</button>
@@ -35,10 +35,10 @@ export default function Home() {
 
             <div className='card-item'>
                <div className='item-img'>
-                  <img src={inspector} class="card-img-top h-20" alt="contact-logo" />
+                  <img src={inspection} class="card-img-top h-20" alt="contact-logo" />
                </div>
                <div>
-                 <p>Users</p>
+                 <div class="d-flex justify-content-center">Land Inspector</div>
                </div>
                <div className='item-btn'>
                  <button className='card-btn'>Continue</button>
@@ -50,7 +50,7 @@ export default function Home() {
                   <img src={ contract} class="card-img-top h-20" alt="contact-logo" />
                </div>
                <div>
-                 <p>Contract</p>
+               <div class="d-flex justify-content-center">Contract</div>
                </div>
                <div className='item-btn'>
                  <button className='card-btn'>Continue</button>
