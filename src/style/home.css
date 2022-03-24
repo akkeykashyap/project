@@ -1,13 +1,20 @@
 .main-logo {
-    margin-top: 100px;
-    /* margin-left: 200px;
-    margin-right: 100px; */
+    flex-grow: 2;
+    /* margin-top: 100px; */
+}
+
+.main-text {
+    flex-grow: 1;
+}
+
+.container {
+    margin: 150px auto;
 }
 
 .main-text-item {
+    padding-top: 100px;
+    padding-left: 100px;
     width: 500px;
-    margin-top: 250px;
-    margin-left: 200px;
     
 }
 
@@ -15,13 +22,15 @@
     margin-top: 100px;
     margin-left: 200px;
     margin-right: 100px;
-    
+    justify-content: center;
 }
 
 .card-item {
     height: 350px;
     width: 250px;
     margin: 50px;
+    /* text-transform: uppercase; */
+    padding: 10px;
     border: 3px solid rgb(155, 152, 152);
     border-radius: 6px;
     position: relative;
@@ -39,13 +48,32 @@
 }
 
 .item-img {
-    height: 250px;
-    
+    height: 200px;
+    margin-bottom: 10px;
+    overflow: hidden;
 }
 
 .card-btn {
    margin-left: auto;
+   width: 55px;
+   height: 10px;
+   padding: 6px;
+   text-decoration: none;
    color: rgb(255, 255, 255);
    background-color: rgb(25, 0, 255);
    
+}
+
+.card-btn:hover {
+    background-color: rgb(92, 76, 238);
+    color: rgb(255, 255, 255);
+}
+
+.card-txt {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.container {
+    overflow: hidden;
 }
